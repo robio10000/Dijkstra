@@ -24,7 +24,6 @@ public class Main {
 		String end = "Q";
 
 		CsvReader.chooseFile();
-//		CsvReader.chooseFile("C:\\Users\\robing\\Desktop\\graph.csv");
 
 		// Nodes in a Set
 		Set<DijkstraNode> graph = CsvReader.graph;
